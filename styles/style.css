@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FIXME: customize Start */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Navbar Styles Starts Here */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* FIXME: */
+    /* width:1440px; */
+    /* max-width:1140px; */
+    height: auto;
+    /* FIXME: */
+    /* margin: 60px ;200px */
+}
+.nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid;
+    padding: 10px 25px;
+    border-radius: 30px;
+    /* FIXME: */
+    /* margin: 60px 400px; */
+    margin-top: 60px;
+    border: 1px solid rgb(24, 23, 23);
+}
+.hamburger {
+    color: white;
+    margin: 70px;
+    display: none;
+}
+h1 {
+    color: rgb(230, 83,60);
+    justify-content: center;
+    vertical-align:middle;
+    margin-top: 60px;
+    font-size: 40px;
+}
+.btn-one {
+    padding: 5px 20px;
+    background-color: rgb(230, 83,60);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.btn-common {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+/* Navbar Styles Ends Here */
+
+/* header/banner content styles starts here */
+.banner-container {
+    display: flex;
+    /* max-width: 1440px; */
+    /* margin: 60px 200px; */
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 450px;
+    height: 100%;
+    margin-top: 50px;
+}
+.banner-images {
+    /* max-width: 300px; */
+    margin-right: 150px;
+    position: relative;
+}
+span {
+    font-family: cursive;
+}
+/* header/banner content styles ends here */
+
+.main-heading {
+    color: white;
+    font-size: 60px;
+    margin-top: 10px;
+}
+.banner-description {
+    color: darkgray;
+    margin-top: 20px;
+}
+.join-now {
+    padding: 15px 40px;
+    background-color: rgb(230, 83,60);
+    border: none;
+    border-radius: 35px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: white;
+}
+.download-app {
+    padding: 15px 40px;
+    background-color: black;
+    border: 1px solid gainsboro;
+    border-radius: 35px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+}
+.small-box1 {
+    color: white;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    bottom: 80px;
+    left: -20px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px;
+}
+.small-box2 {
+    color: white;
+    position: absolute;
+    padding: 7px 12px;
+    text-wrap: nowrap;
+    left: 190px;
+    bottom: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    text-align: center;
+}
+/* change your habit section's styles here */
+/* FIXME: Start */
+.habit-main-container {
+    margin-top: 100px;
+    color: white;
+}
+
+.habit-change {
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.habit-change h3 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-change p {
+    margin-top: 14px;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-card-container {
+    margin-top: 58px;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.card img {
+    margin-top: 10px;
+    max-width: 180px;
+    height: 180px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.card h5 {
+    margin-top: 15px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.card p {
+    margin-top: 6px;
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+}
+/* FIXME: END */
+
+/* Run Section */
+.run-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+}
+.run {
+    width: 1100px;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+}
+.run-head {
+    margin-left: 100px;
+}
+.run-head>p {
+    color: darkgray;
+    margin-bottom: 50px;
+
+}
+.run-heading {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.run-img>img {
+    width: 366px;
+    height: 312px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+/* BMI section */
+.BMI {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bmi-head {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 300px;
+    /* width: 850px; */
+    margin-top: 100px;
+    font-size: 2rem;
+}
+.bmi-head p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: darkgray;
+}
+.BMI-data {
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1A;
+}
+.table {
+    color: white;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    /* border-collapse: collapse; */
+}
+.table-head {
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+th, td {
+    border: 1px solid rgb(51, 51, 51);
+    padding: 10px 20px;
+    border-collapse:collapse;
+}
+td {
+    color: darkgray;
+}
+.form {
+    color: white;
+    padding-right: 300px;
+    padding-top: 30px;
+}
+.form-head {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: darkgray;
+}
+.form-box {
+    width: 180px;
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+}
+.form-box3 {
+    width: 180px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+}
+.form-box4 {
+    width: 180px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+.form-box5 {
+    width: 370px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+.table-form {
+    display: grid;
+    /* BUG: */
+    grid-template-columns: repeat(2, 1fr);
+}
+/* Meet our team section styles */
+/* FIXME: team section Start */
+.team-container {
+    margin-top: 100px;
+    color: white;
+}
+
+.team-header {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.team-header h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.team-header p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 24px;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.team-cards {
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+
+.card-img {
+    border-radius: 18px;
+    height: 300px;
+}
+
+.team-container .team-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 22px;
+    border-radius: 18px;
+}
+
+.team-cards>div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.card-text h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.card-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* FIXME: Team section End */
+
+/* footer styles starts here */
+.footer {
+    /* FIXME: */
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1A;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    /* FIXME: */
+    /* width: 1060px; */
+    /* margin-left: 170px; */
+}
+.footer-head {
+    height: 250px;
+    width: 400px;
+}
+.footer-part-two {
+    padding-top: 70px;
+}
+.footer-part-three {
+    padding-top: 70px;
+}
+.footer-head>p {
+    color: white;
+    margin-top: 10px;
+    /* FIXME: */
+    padding-right: 15px;
+}
+
+.footer-part-two>h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-part-three>h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-main li {
+    list-style: none;
+    color: white;
+}
+.footer-main a {
+    text-decoration: none;
+    color: white;
+    text-decoration: solid;
+}
+hr {
+    max-width: 1440px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.copy-right {
+    color: rgb(175, 175, 175);
+    margin-top: 20px;
+    /* FIXME: */
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+    
+    .navbar {
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+        max-width: 500px;
+        margin-top: 5px;
+    }
+    /* h1 {
+        color: gold;
+    } */
+    .nav-menu {
+        display: none;
+    }
+    .nav-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        width: 400px;
+    }
+    .hamburger {
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        display: block;
+        position: relative;
+        bottom: -25px;
+        
+    }
+    .banner-container {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .habit-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .habit-head {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .habit-img {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+
+    .run {
+        width: fit-content;
+        height: auto;
+        margin-left: 20px;
+    }
+    .run-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .BMI {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .bmi-head {
+        text-align: left;
+        /* FIXME: */
+        margin-left: 0px;
+    }
+    .bmi-content {
+        text-align: left;
+    }
+    .table {
+        padding: 10px;
+        margin-left: 5px;
+    }
+    .form {
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .table-form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* FIXME: */
+    /* .team-images {
+        background-color:black;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    } */
+    .team-header p {
+        max-width: 320px;
+    }
+
+    .team-container .team-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+                /* FIXME: */
+                margin-left: 50px;
+    }
+
+    /* FIXME: */
+        /* Habit Section */
+    
+        .habit-card-container {
+            flex-direction: column;
+        }
+
+        /* FIXME: */
+        /* team section padding */
+        .team-container {
+            margin: 25px;
+
+        }
+}
