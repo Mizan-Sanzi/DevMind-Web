@@ -130,6 +130,11 @@ span {
     background: rgba(48, 48, 48, 0.54);
     padding: 10px;
 }
+.small {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .small-box2 {
     color: white;
     position: absolute;
