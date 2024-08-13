@@ -502,8 +502,9 @@ hr {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-left: 10px;
-        width: 400px;
+        gap: 50px;
+        /* margin-left: 5px; */
+        width: 550px;
     }
     .hamburger {
         color: white;
