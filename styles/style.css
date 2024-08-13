@@ -557,6 +557,10 @@ hr {
         height: auto;
         margin-left: 50px;
     }
+    .run-head {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .run-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
