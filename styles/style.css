@@ -135,6 +135,10 @@ span {
     align-items: center;
     gap: 10px;
 }
+.youtube {
+    color: red;
+    display: none;
+}
 .small-box2 {
     color: white;
     position: absolute;
@@ -520,6 +524,15 @@ hr {
         flex-direction: column;
         margin-left: 30px;
     }
+    .youtube {
+        color: rgb(230, 83, 60);
+        display: inline;
+        /* background-color: white; */
+        /* border-radius: 50%; */
+    }
+    .circle {
+        display: none;
+    }
     .habit-container {
         flex-direction: column;
         flex-wrap: wrap;
@@ -538,11 +551,20 @@ hr {
     .run {
         width: fit-content;
         height: auto;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .run-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .run-img>img {
+        width: 366px;
+        height: 312px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        margin-left: 20px;
     }
     .BMI {
         flex-direction: column;
