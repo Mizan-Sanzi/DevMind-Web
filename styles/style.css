@@ -232,9 +232,9 @@ h1 {
     background-color: #1A1A1A;
     border-radius: 20px;
 }
-/* .run-head {
+.run-head {
     margin-left: 100px;
-} */
+}
 .run-head>p {
     color: darkgray;
     margin-bottom: 50px;
