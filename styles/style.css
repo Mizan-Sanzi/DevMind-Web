@@ -527,7 +527,7 @@ hr {
     .youtube {
         color: rgb(230, 83, 60);
         display: inline;
-        /* background-color: white; */
+        background-color: white;
         /* border-radius: 50%; */
     }
     .circle {
@@ -557,6 +557,11 @@ hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
+        width: 405px;
+    }
+    .run-head p {
+        justify-content: center;
+        margin-left: 5px;
     }
     .run-img>img {
         width: 366px;
@@ -573,14 +578,14 @@ hr {
     .bmi-head {
         text-align: left;
         /* FIXME: */
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .bmi-content {
         text-align: left;
     }
     .table {
         padding: 10px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     .form {
         padding: 10px;
