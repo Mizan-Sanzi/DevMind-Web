@@ -551,7 +551,7 @@ hr {
     .run {
         width: fit-content;
         height: auto;
-        margin-left: 30px;
+        margin-left: 50px;
     }
     .run-container {
         display: grid;
