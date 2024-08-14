@@ -555,7 +555,7 @@ hr {
         align-items: center;
         justify-content: space-between;
         gap: 50px;
-        /* margin-left: 5px; */
+        margin-left: 50px;
         /* width: 550px; */
         width: 100vw;
     }
@@ -567,7 +567,6 @@ hr {
         display: block;
         position: relative;
         bottom: -25px;
-        
     }
     .banner-container {
         flex-direction: column;
@@ -680,7 +679,9 @@ hr {
                 flex-flow: wrap;
         flex-wrap: wrap;
     }
-
+    .last-line {
+        margin-top: 20px;
+    }
     /* FIXME: */
         /* Habit Section */
     
