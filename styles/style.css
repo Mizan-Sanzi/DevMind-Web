@@ -556,7 +556,8 @@ hr {
         justify-content: space-between;
         gap: 50px;
         /* margin-left: 5px; */
-        width: 550px;
+        /* width: 550px; */
+        width: 100vw;
     }
     .hamburger {
         color: white;
@@ -602,7 +603,7 @@ hr {
     .run {
         width: fit-content;
         height: auto;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
     .run-head {
         margin-left: 20px;
@@ -629,6 +630,7 @@ hr {
     .BMI {
         flex-direction: column;
         flex-wrap: wrap;
+        flex-flow: wrap;
     }
     .bmi-head {
         text-align: left;
@@ -667,12 +669,16 @@ hr {
     .footer {
         flex-direction: column;
         margin-top: 30px;
+        flex-flow: wrap;
+        flex-wrap: wrap;
     }
     .footer-main {
         display: flex;
         flex-direction: column;
                 /* FIXME: */
                 margin-left: 50px;
+                flex-flow: wrap;
+        flex-wrap: wrap;
     }
 
     /* FIXME: */
