@@ -150,6 +150,9 @@ h1 {
     background-color: rgb(230, 83, 60);
     /* display: none; */
     border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 .small-box2 {
     color: white;
@@ -578,12 +581,18 @@ hr {
         background-color: white;
         /* border-radius: 50%; */
     }
-    .circle {
+    /* .circle {
         color: white;
         display: inline;
         background-color: rgb(230, 83, 60);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         display: none;
-    }
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    } */
     .habit-container {
         flex-direction: column;
         flex-wrap: wrap;
