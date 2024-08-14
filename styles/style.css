@@ -313,8 +313,8 @@ h1 {
     color: white;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin-left: 300px;
+    text-align:justify;
+    margin-left: 350px;
     /* width: 850px; */
     margin-top: 100px;
     font-size: 2rem;
@@ -334,7 +334,7 @@ table {
 }
 .table {
     color: white;
-    padding-left: 300px;
+    padding-left: 295px;
     padding-bottom: 50px;
     border-collapse: collapse;
 }
@@ -354,7 +354,7 @@ td {
 }
 .form {
     color: white;
-    padding-right: 300px;
+    padding-right: 295px;
     padding-top: 30px;
 }
 .form-head {
