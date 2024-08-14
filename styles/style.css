@@ -44,7 +44,7 @@ body {
 }
 .hamburger {
     color: white;
-    margin: 70px;
+    margin: 60px;
     display: none;
 }
 h1 {
@@ -80,13 +80,14 @@ h1 {
     justify-content: space-between;
 }
 .banner-content {
-    max-width: 450px;
+    max-width: 430px;
     height: 100%;
     margin-top: 50px;
 }
 .banner-images {
     /* max-width: 300px; */
     margin-right: 150px;
+    margin-left: 50px;
     position: relative;
 }
 .very {
@@ -253,7 +254,6 @@ h1 {
 .run-head>p {
     color: darkgray;
     margin-bottom: 50px;
-
 }
 .run-heading {
     color: white;
@@ -262,7 +262,7 @@ h1 {
 
 .run-img>img {
     width: 366px;
-    height: 312px;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 30px;
@@ -329,11 +329,14 @@ h1 {
     height: auto;
     background-color: #1A1A1A;
 }
+table {
+    border-collapse: collapse;
+}
 .table {
     color: white;
     padding-left: 300px;
     padding-bottom: 50px;
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
 }
 .table-head {
     height: 100px;
@@ -489,8 +492,8 @@ td {
     /* margin-left: 170px; */
 }
 .footer-head {
-    height: 250px;
-    width: 400px;
+    height: 150px;
+    width: auto;
 }
 .footer-part-two {
     padding-top: 70px;
@@ -527,11 +530,12 @@ hr {
     max-width: 1440px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 30px;
 }
 
 .copy-right {
     color: rgb(175, 175, 175);
-    margin-top: 20px;
+    margin-top: 30px;
     /* FIXME: */
     /* margin-bottom: 20px; */
     display: flex;
@@ -675,7 +679,7 @@ hr {
     }
 
     .team-container .team-cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .footer {
@@ -685,8 +689,9 @@ hr {
         flex-wrap: wrap;
     }
     .footer-main {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* flex-direction: column; */
                 /* FIXME: */
                 margin-left: 50px;
                 flex-flow: wrap;
